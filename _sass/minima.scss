@@ -35,6 +35,15 @@
   src: url('./fonts/Retro Gaming.ttf');
 }
 
+/* Color Palette */
+$dark-purple: #331832ff;
+$mango: #f7b801ff;
+$cerulean-crayola: #00a7e1ff;
+$light-coral: #f28482;
+$cultured: #f7f9f9ff;
+$medium-aquamarine: #3ddc97ff;
+
+
 // Define defaults for each variable.
 
 //$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
@@ -49,9 +58,9 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #fdfdfd !default;
-$background-color: #111 !default;
-$brand-color:      #2a7ae2 !default;
+$text-color:       $cultured !default;
+$background-color: $dark-purple !default;
+$brand-color:      $medium-aquamarine !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
